@@ -57,7 +57,8 @@ defmodule DogRegistry.DogTest do
       assert {:ok, %Dog{}} = Dog.create_or_update(params(@living_dog_1, owner))
       assert {:ok, %Dog{}} = Dog.create_or_update(params(@living_dog_2, owner))
 
-      assert [_] = Repo.all(Dog)
+      assert [%Dog{name: name}] = Repo.all(Dog)
+      assert name == @living_dog_2.name
     end
   end
 end
