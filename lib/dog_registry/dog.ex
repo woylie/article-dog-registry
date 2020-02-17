@@ -32,7 +32,7 @@ defmodule DogRegistry.Dog do
     %__MODULE__{}
     |> changeset(attrs)
     |> Repo.insert(
-      returning: true,
+      returning: [:id],
       on_conflict: {:replace_all_except, [:id, :inserted_at]},
       conflict_target:
         {:unsafe_fragment, "(owner_id, status) WHERE status = 'alive'"}
