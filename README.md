@@ -2,4 +2,4 @@
 
 One dog each please.
 
-Read the article on [Medium](https://medium.com/@woylie/adventures-in-ecto-and-postgresql-partial-unique-indexes-and-upserts-with-associations-ccf20114dfa1).
+Read the article on [here](https://www.mathiaspolligkeit.de/dev/adventures-ecto-postgresql-partial-unique-indexes-upserts/).
