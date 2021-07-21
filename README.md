@@ -1,5 +1,2 @@
 # Dog Registry
-
-One dog each please.
-
-Read the article on [here](https://www.mathiaspolligkeit.de/dev/adventures-ecto-postgresql-partial-unique-indexes-upserts/).
+This repository contains the code for the article ["Adventures in Ecto and PostgreSQL: Partial Unique Indexes and Upserts With Associations"](https://www.mathiaspolligkeit.de/dev/adventures-ecto-postgresql-partial-unique-indexes-upserts/).
